@@ -1,0 +1,35 @@
+{
+  "name": "api-node-js",
+  "version": "1.0.0",
+  "description": "api node-js project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salim-ouari/api-nodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salim-ouari/api-nodeJS/issues"
+  },
+  "homepage": "https://github.com/salim-ouari/api-nodeJS#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-myconnection": "^1.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "password-validator": "^5.3.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
